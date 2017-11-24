@@ -6,9 +6,6 @@ Designed to give you more contrast between you're open files.
 ![screenshot](screenshot.jpg)
 
 ## How to install
-
-Install trough Komodo.
-
 You can install the New File Icons trough the Tools menu.  
 **Tools > New File Icons > Install New File Icons**  
 **Note:** You need to run Komodo as administrator (because the addon needs to make changes in the install directory).  
