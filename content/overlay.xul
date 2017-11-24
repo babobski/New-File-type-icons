@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<overlay id="newFileIcons" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://newFileIcons/content/overlay.js" />
+	
+	<commandset id="allcommands">
+		<command id="Tasks:installIcons" oncommand="extensions.newFileIcons.installIcons();"/>
+	</commandset>
+	
+	<menupopup id="popup_tools">
+		<menu id="menu_less" label="New File Icons">
+			<menupopup id="menu_newFileIcons_popup">
+				<menuitem id="menu_newFileIcons_install"
+					label="Install New File Icons"
+					observes="Tasks:installIcons"
+					class="menu-iconic-wide" />
+			</menupopup>
+		</menu>
+	</menupopup>
+
+</overlay>
