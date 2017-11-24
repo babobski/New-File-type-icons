@@ -31,8 +31,6 @@ if (typeof(extensions.newFileIcons) === 'undefined') extensions.newFileIcons = {
 				}
 			}
 			
-			
-			
 			var entries = pluginIconsDir.directoryEntries;
 			while(entries.hasMoreElements()) {
 				try {
