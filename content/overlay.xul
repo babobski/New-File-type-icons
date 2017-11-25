@@ -7,7 +7,7 @@
 	</commandset>
 	
 	<menupopup id="popup_tools">
-		<menu id="menu_less" label="New File Icons">
+		<menu id="menu_newFileIcons" label="New File Icons">
 			<menupopup id="menu_newFileIcons_popup">
 				<menuitem id="menu_newFileIcons_install"
 					label="Install New File Icons"

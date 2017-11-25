@@ -3,7 +3,7 @@
  */
 if (typeof(extensions) === 'undefined') extensions = {};
 if (typeof(extensions.newFileIcons) === 'undefined') extensions.newFileIcons = {
-	version: '1.0'
+	version: '1.0.1'
 };
 
 (function() {
