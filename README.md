@@ -1,4 +1,4 @@
-# New File type Icons
+# New File Type Icons
 
 Replace you're default file type icons, with these new icons.  
 Designed to give you more contrast between you're open files.

@@ -3,7 +3,7 @@
  */
 if (typeof(extensions) === 'undefined') extensions = {};
 if (typeof(extensions.newFileIcons) === 'undefined') extensions.newFileIcons = {
-	version: '1.0.3'
+	version: '1.0.4'
 };
 
 (function() {
@@ -12,9 +12,9 @@ if (typeof(extensions.newFileIcons) === 'undefined') extensions.newFileIcons = {
 	this.installIcons = function() {
 		Components.utils.import("resource://gre/modules/FileUtils.jsm");
 		
-		var profileIcons = FileUtils.getDir("ProfD", ["icons", "fileicons"]);
-		var installFolderIcons = FileUtils.getDir("CurProcD", ["chrome", "icons", "default", "fileicons"]);
-		var pluginIconsDir = FileUtils.getDir("ProfD", ["extensions", "newFileIcons@babobski.com", "icons"]);
+		var profileIcons 		= FileUtils.getDir("ProfD", ["icons", "fileicons"]),
+			installFolderIcons 	= FileUtils.getDir("CurProcD", ["chrome", "icons", "default", "fileicons"]),
+			pluginIconsDir 		= FileUtils.getDir("ProfD", ["extensions", "newFileIcons@babobski.com", "icons"]);
 		// Remove existing icons
 		try {
 			while (profileIcons.exists() && profileIcons.directoryEntries.hasMoreElements()) {

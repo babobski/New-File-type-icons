@@ -4,8 +4,8 @@
     <Description about="urn:mozilla:install-manifest">
 <em:unpack>true</em:unpack>
         <em:id>newFileIcons@babobski.com</em:id>
-        <em:name>EOL Widget</em:name>
-        <em:version>1.0.3</em:version>
+        <em:name>New File Type Icons</em:name>
+        <em:version>1.0.4</em:version>
         <em:description>Alternative file icons for Komodo Ide/edit</em:description>
         <em:creator>Bob de Haas</em:creator>
         <em:homepageURL></em:homepageURL>
